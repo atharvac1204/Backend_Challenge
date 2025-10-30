@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { TaskService } from '../services/taskService';
-import { SyncService } from '../services/syncService';
+//import { SyncService } from '../services/syncService';
 import { Database } from '../db/database';
 import { TaskInput } from '../types';
 
@@ -125,4 +125,5 @@ export function createTaskRouter(db: Database): Router {
   });
 
   return router;
+
 }
