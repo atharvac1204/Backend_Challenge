@@ -1,6 +1,6 @@
 import sqlite3 from 'sqlite3';
 
-import { Task, SyncQueueItem } from '../types';
+//import { Task, SyncQueueItem } from '../types';
 
 const sqlite = sqlite3.verbose();
 
@@ -86,3 +86,4 @@ export class Database {
   }
 
 }
+
